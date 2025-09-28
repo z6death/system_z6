@@ -20,6 +20,7 @@ mkdir Midnight-Green && 7z x Midnight-Green.7z -oMidnight-Green
 mkdir Ubuntu-Mono-Dark-Green && tar -xzf Ubuntu-Mono-Dark-Green.tar.gz -C Ubuntu-Mono-Dark-Green
 
 sudo cp -r Hacker-C Midnight-Green Ubuntu-Mono-Dark-Green /usr/share/icons/
+cp -r Midnight-Green ~/.themes
 
 cd ~/
 
