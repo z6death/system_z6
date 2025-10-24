@@ -33,7 +33,10 @@ for repo in \
   https://github.com/z6death/zbat.git \
   https://github.com/z6death/kitty_z6.git \
   https://github.com/z6death/zute.git \
-  https://github.com/z6death/z6_sh.git
+  https://github.com/z6death/z6_sh.git\
+  https://github.com/Matars/gitfetch.git\
+  https://github.com/ReidoBoss/tttui.git
+
 do
   git clone $repo
 done
@@ -46,4 +49,7 @@ cp -r zbat/* ~/.config/bat/
 cp -r kitty_z6/* ~/.config/kitty/
 cp -r zute/* ~/.config/qutebrowser/
 
+chmod +X ~/tttui/bin/tttui
+cd ~/gitfetch/
+pipx install -e .
 
