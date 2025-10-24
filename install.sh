@@ -12,7 +12,7 @@ brew install nvim oh-my-posh clcokify-cli
 
 cd ~/system_z6/ 
 
-cp -r .bashrc .config .mpd .ncmpcpp .themes Downloads app code img ~/
+cp -r .bashrc .config .mpd .ncmpcpp .themes Downloads app code img workspace ~/
 
 cd Downloads
 mkdir Hacker-C && tar -xzf Hacker-C.tar.gz -C Hacker-C
@@ -35,7 +35,8 @@ for repo in \
   https://github.com/z6death/zute.git \
   https://github.com/z6death/z6_sh.git\
   https://github.com/Matars/gitfetch.git\
-  https://github.com/ReidoBoss/tttui.git
+  https://github.com/ReidoBoss/tttui.git\
+  git clone https://github.com/dacctal/pkgit
 
 do
   git clone $repo
@@ -52,4 +53,9 @@ cp -r zute/* ~/.config/qutebrowser/
 chmod +X ~/tttui/bin/tttui
 cd ~/gitfetch/
 pipx install -e .
+cd ~/pkgit
+./install.sh
+pkgit ar https://github.com/dacctal/pkgit
+pkgit i pkgit
+rm -rf ~/pkgit
 
