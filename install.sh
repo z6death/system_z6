@@ -53,6 +53,7 @@ cp -r zute/* ~/.config/qutebrowser/
 chmod +X ~/tttui/bin/tttui
 cd ~/gitfetch/
 pipx install -e .
+nimble install parsetoml
 cd ~/pkgit
 ./install.sh
 pkgit ar https://github.com/dacctal/pkgit
