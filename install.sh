@@ -25,15 +25,15 @@ cp -r Midnight-Green ~/.themes
 cd ~/
 
 for repo in \
-  https://github.com/z6death/z3.git \
-  https://github.com/z6death/zvim.git \
-  https://github.com/z6death/z6.git \
-  https://github.com/z6death/zpoly.git \
-  https://github.com/z6death/zmux.git \
-  https://github.com/z6death/zbat.git \
-  https://github.com/z6death/kitty_z6.git \
-  https://github.com/z6death/zute.git \
-  https://github.com/z6death/z6_sh.git\
+  https://github.com/v01d-0w1/z3.git \
+  https://github.com/v01d-0w1/zvim.git \
+  https://github.com/v01d-0w1/z6.git \
+  https://github.com/v01d-0w1/zpoly.git \
+  https://github.com/v01d-0w1/zmux.git \
+  https://github.com/v01d-0w1/zbat.git \
+  https://github.com/v01d-0w1/kitty_z6.git \
+  https://github.com/v01d-0w1/zute.git \
+  https://github.com/v01d-0w1/z6_sh.git\
   https://github.com/Matars/gitfetch.git\
   https://github.com/ReidoBoss/tttui.git\
   https://github.com/dacctal/pkgit\
