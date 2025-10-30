@@ -26,6 +26,7 @@ cd ~/
 
 for repo in \
   https://github.com/v01d-0w1/z3.git \
+  https://github.com/v01d-0w1/SFML_rush.git\
   https://github.com/v01d-0w1/zvim.git \
   https://github.com/v01d-0w1/z6.git \
   https://github.com/v01d-0w1/zpoly.git \
@@ -65,4 +66,4 @@ cmake .. -DCROW_BUILD_EXAMPLES=OFF -DCROW_BUILD_TESTS=OFF
 make install
 cd ~
 sudo cp -r ~/Crow/include/* /usr/local/include/
-
+sudo cp -r ~/SFML_rush/project/lib/SFML/include/* /usr/local/include/
