@@ -36,7 +36,8 @@ for repo in \
   https://github.com/z6death/z6_sh.git\
   https://github.com/Matars/gitfetch.git\
   https://github.com/ReidoBoss/tttui.git\
-  git clone https://github.com/dacctal/pkgit
+  https://github.com/dacctal/pkgit\
+  https://github.com/CrowCpp/Crow.git
 
 do
   git clone $repo
@@ -59,4 +60,9 @@ cd ~/pkgit
 pkgit ar https://github.com/dacctal/pkgit
 pkgit i pkgit
 rm -rf ~/pkgit
+cd ~/Crow/
+cmake .. -DCROW_BUILD_EXAMPLES=OFF -DCROW_BUILD_TESTS=OFF
+make install
+cd ~
+sudo cp -r ~/Crow/include/* /usr/local/include/
 
