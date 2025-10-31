@@ -25,7 +25,8 @@ cp -r Midnight-Green ~/.themes
 cd ~/
 
 for repo in \
-  https://github.com/v01d-0w1/z3.git \
+  https://github.com/v01d-0w1/z3.git\
+  https://github.com/v01d-0w1/zicom.git\
   https://github.com/v01d-0w1/SFML_rush.git\
   https://github.com/v01d-0w1/zvim.git \
   https://github.com/v01d-0w1/z6.git \
