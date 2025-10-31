@@ -8,7 +8,7 @@ sudo xbps-install -Syvu < packages.txt
 
 sudo ln -s /etc/sv/{dbus,NetworkManager,lightdm,avahi-daemon} /var/service/ && sudo sv up dbus NetworkManager lightdm avahi-daemon
 
-brew install nvim oh-my-posh clcokify-cli
+brew install nvim oh-my-posh clcokify-cli ncurces nmap xz hcxtools autojump
 
 cd ~/system_z6/ 
 
