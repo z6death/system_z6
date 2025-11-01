@@ -8,7 +8,7 @@ sudo xbps-install -Syvu < packages.txt
 
 sudo ln -s /etc/sv/{dbus,NetworkManager,lightdm,avahi-daemon} /var/service/ && sudo sv up dbus NetworkManager lightdm avahi-daemon
 
-brew install nvim oh-my-posh clcokify-cli ncurces nmap xz hcxtools autojump gh
+brew install nvim oh-my-posh clcokify-cli ncurces nmap xz hcxtools autojump gh sfml
 
 cd ~/system_z6/ 
 
@@ -67,6 +67,3 @@ make install
 cd ~
 sudo cp -r ~/Crow/include/* /usr/local/include/
 cd ~/system_z6/
-7zip x ~/system_z6/SFML-2.6.0-linux-gcc-64-bit.tar
-sudo cp -r ~/system_z6/SFML-2.6.0/include/* /usr/local/include/
-sudo cp -r ~/system_z6/SFML-2.6.0/lib/* /usr/local/lib/
